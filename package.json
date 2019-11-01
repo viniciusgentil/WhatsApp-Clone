@@ -1,0 +1,39 @@
+{
+  "name": "WhatsApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "firebase": "^7.2.0",
+    "lodash": "^4.17.15",
+    "react": "16.9.0",
+    "react-native": "0.61.2",
+    "react-native-base64": "0.0.2",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.3.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-tab-view": "^2.10.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.3",
+    "@babel/runtime": "7.6.3",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.5.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
